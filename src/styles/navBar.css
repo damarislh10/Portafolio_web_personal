@@ -1,9 +1,11 @@
 .container-nav {
   width: 100%;
   border-bottom: #0000001c 2px solid;
-  background: linear-gradient(to right,#ea19f1,#5a43b8);
-  position: fixed;
+  background-color: #741ce8;
+  z-index: 100;
+  transition: 0.25s padding-top ease-in-out, 0.25s padding-bottom ease-in-out;
 }
+
 .contaner-li {
   width: 30%;
   margin: auto;
@@ -13,6 +15,6 @@
   justify-content: space-around;
 }
 
-.buttonPages:hover{
+.buttonPages:hover {
   color: #b7b1ce;
 }
