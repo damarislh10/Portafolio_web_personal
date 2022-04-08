@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from "react-dom/client";
-import App from './routes/App';
+import { Portafolio } from './containers/Portafolio';
 import './styles/config.css'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Portafolio />
   </React.StrictMode>
 );
 

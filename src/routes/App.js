@@ -1,24 +1,21 @@
-import { makeStyles } from "@material-ui/core";
 import { About } from "../components/About";
+import { BackgroundImage } from "../components/BackgroundImage";
 import { Contact } from "../components/Contact";
 import { MyWork } from "../components/MyWork";
 import { Navbar } from "../components/Navbar";
 import { Skills } from "../components/Skills";
 
 function App() {
-  const classes = useStyles();
   return (
-    <div className={classes.root}>
+    <div className="App">
       <Navbar />
-      <About />
-      <Skills />
-      <MyWork />
-      <Contact />
+      <About id="about" />
+      <BackgroundImage/>
+      <Skills id="skills" />
+      <MyWork id="mywork" />
+      <Contact id="contact" />
     </div>
   );
 }
 
-const useStyles = makeStyles((theme) => ({
-  root: {},
-}));
 export default App;

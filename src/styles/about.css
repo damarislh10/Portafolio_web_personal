@@ -1,0 +1,25 @@
+.containerAllAbout {
+  background: linear-gradient(to bottom, #ea19f1, #332179);
+  padding: 10% 0;
+
+}
+.container-about {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.container-description {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  color: var(--textColor);
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+
+
+.titleName {
+  margin-bottom: 3%;
+  
+}

@@ -1,7 +1,10 @@
 import React from 'react'
+import App from '../routes/App'
 
 export const Portafolio = () => {
   return (
-    <div>Portafolio</div>
+    <div>
+        <App/>
+    </div>
   )
 }
