@@ -1,0 +1,33 @@
+.containerSkills{
+    width: 90%;
+    margin: auto;
+    margin-top: -5%;
+}
+
+.container-text{
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 0;
+    border-radius: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.col{
+    text-align: center;
+}
+.imageTech{
+    width: 130px;
+    margin: 5% 0;
+}
+
+.title-languaje{
+    color: #5b43d6;
+    font-weight: 400;
+    margin-bottom: 4%;
+}
+
+.title-main{
+    margin-bottom: 2%;
+}
