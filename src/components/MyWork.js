@@ -5,7 +5,7 @@ import "../styles/myWork.css";
 export const MyWork = () => {
   return (
     <div>
-      <div className="container-text">
+      <div className="container-text contain-work">
         <h1 className="title-main">Mis proyectos recientes</h1>
         <p>Aquí hay algunos proyectos en los que he trabajado recientemente.</p>
       </div>

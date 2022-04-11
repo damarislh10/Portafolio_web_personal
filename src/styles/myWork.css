@@ -4,7 +4,15 @@
   gap: 40px;
   padding: 2%;
   text-align: left;
-  border-top: 1px solid rgb(175, 172, 172);
+  border-bottom: 1px solid rgb(175, 172, 172);
+
+}
+
+.contain-work{
+    border-bottom: 1px solid rgb(175, 172, 172);
+    border-end-end-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+
 }
 .imageProject {
   width: 600px;

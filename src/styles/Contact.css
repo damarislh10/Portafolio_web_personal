@@ -1,0 +1,14 @@
+.contact-form {
+  width: 50%;
+  margin: auto;
+}
+
+.container-btnContact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.error{
+  color:#ef5771;
+}

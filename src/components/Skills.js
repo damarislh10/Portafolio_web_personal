@@ -8,8 +8,8 @@ export const Skills = () => {
         <div className="container-text">
           <h1 className="title-main">Mis Skills</h1>
           <p>
-            Me gusta codificar cosas desde cero y disfruto dando vida a las
-            ideas en el navegador.
+            Estos son los lenguajes y tecnologías que manejo, de los cuales me
+            interesa seguir aprendiendo.
           </p>
         </div>
         <div className="row">
