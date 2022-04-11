@@ -1,10 +1,50 @@
-.container-col-2{
-    display: flex;
-    align-items: center;
-    padding: 2%;
-    background: linear-gradient(to bottom, #7a19f1, #332179);
-
+.container-col-2 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 2%;
+  text-align: left;
+  border-top: 1px solid rgb(175, 172, 172);
 }
-.imageProject{
-    width: 600px;
+.imageProject {
+  width: 600px;
+}
+
+.container-des-work,
+ul,
+p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.buttonWork {
+  padding: 12px 30px !important;
+  border-radius: 30px !important;
+  background-color: #5b43d6 !important;
+  border-color: #5b43d6 !important;
+  color: #fff !important;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btnSite{
+    background-color: #fff !important;
+    color:  #5b43d6 !important;
+    margin-left: 4% !important;
+}
+
+.parrafoApp{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.titleProject{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.6;
 }
