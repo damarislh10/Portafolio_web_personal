@@ -11,7 +11,8 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import "../styles/navBar.css";
 
-export const Navbar = () => {
+export const Navbar = ({id}) => {
+
   const pages = ["About", "Skill", "My work", "Contact"];
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
@@ -24,6 +25,7 @@ export const Navbar = () => {
   };
   return (
     <AppBar position="static">
+
       <Container maxWidth="xl" className="container-nav">
         <Toolbar disableGutters className="contaner-li">
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>

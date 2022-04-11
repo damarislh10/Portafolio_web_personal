@@ -1,5 +1,6 @@
 import { About } from "../components/About";
 import { BackgroundImage } from "../components/BackgroundImage";
+import { Certifications } from "../components/Certifications";
 import { Contact } from "../components/Contact";
 import { MyWork } from "../components/MyWork";
 import { Navbar } from "../components/Navbar";
@@ -12,8 +13,10 @@ function App() {
       <About id="about" />
       <BackgroundImage/>
       <Skills id="skills" />
+      <Certifications id="certifications"/>
       <MyWork id="mywork" />
       <Contact id="contact" />
+
     </div>
   );
 }

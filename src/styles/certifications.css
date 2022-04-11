@@ -1,0 +1,46 @@
+.geek {
+  display: flex;
+  align-items: center;
+}
+
+.imageGeek {
+  width: 100px;
+}
+
+.container-text-certi {
+  margin-left: 4%;
+  text-align: left;
+}
+
+.container-text-certi > h3 {
+  margin-bottom: 5%;
+}
+
+.container-col {
+  background: linear-gradient(to bottom, #7a19f1, #4a34a1);
+  padding: 10% 5%;
+  border-radius: 15px;
+  width: 400px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+.container-text-certi,
+a {
+  color: var(--textColor);
+}
+.container-text-certi > a {
+  text-decoration: none;
+}
+
+.containerImage {
+  background: linear-gradient(to bottom, #8e44e8, #634cc1);
+  border-radius: 500px;
+}
+
+#imageGeek {
+  padding: 3%;
+}
