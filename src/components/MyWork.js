@@ -57,7 +57,7 @@ export const MyWork = () => {
             <div className="containerImageWork">
               <img
                 className="imageProject"
-                src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649787125/MyPortafolio/computer2_x0jeye.jpg"
+                src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649799528/MyPortafolio/computer2_c44wbh.jpg"
                 alt="imageProject"
               />
             </div>
@@ -97,7 +97,7 @@ export const MyWork = () => {
             <div className="containerImageWork">
               <img
                 className="imageProject"
-                src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649711270/MyPortafolio/imagepets_l7om3d.png"
+                src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649796387/MyPortafolio/computerPetsMascots_nuqrep.jpg"
                 alt="imageProject"
               />
             </div>

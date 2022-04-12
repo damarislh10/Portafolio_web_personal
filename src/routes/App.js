@@ -4,7 +4,7 @@ import { Certifications } from "../components/Certifications";
 import { Contact } from "../components/Contact";
 import { MyWork } from "../components/MyWork";
 import { Navbar } from "../components/Navbar";
-import { NetWorkSocial } from "../components/NetWorkSocial";
+import { NetworkSocial } from "../components/NetWorkSocial";
 import { Skills } from "../components/Skills";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Certifications id="certifications"/>
       <MyWork id="mywork" />
       <Contact id="contact" />
-      <NetWorkSocial/>
+      <NetworkSocial/>
     </div>
   );
 }

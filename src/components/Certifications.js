@@ -76,7 +76,7 @@ export const Certifications = () => {
                 <div className="containerImage">
                   <img
                     className="imageGeek"
-                    src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649703304/MyPortafolio/logoFreecomcamp-removebg-preview_nded5b.png"
+                    src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649801484/MyPortafolio/logoFreecomcamp_3_qnsgyf.png"
                     alt="logo"
                   />
                 </div>
@@ -86,7 +86,7 @@ export const Certifications = () => {
                   <Button
                     variant="outlined"
                     className="buttonWork btnSite"
-                    href="https://www.freecodecamp.org/certification/DamarisHernandez/responsive-web-design"
+                    href="https://res.cloudinary.com/df90q7vvj/image/upload/v1649801484/MyPortafolio/logoFreecomcamp_3_qnsgyf.png"
                     target="_blank"
                   >
                     Ver credencial
@@ -102,7 +102,7 @@ export const Certifications = () => {
                 <div className="containerImage">
                   <img
                     className="imageGeek"
-                    src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649703304/MyPortafolio/logoFreecomcamp-removebg-preview_nded5b.png"
+                    src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649801484/MyPortafolio/logoFreecomcamp_3_qnsgyf.png"
                     alt="logo"
                   />
                 </div>

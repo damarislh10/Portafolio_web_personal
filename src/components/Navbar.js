@@ -13,7 +13,7 @@ import "../styles/navBar.css";
 
 export const Navbar = ({id}) => {
 
-  const pages = ["About", "Skill", "My work", "Contact"];
+  const pages = ["Perfil", "Habilidades","Certificaciones", "Proyectos", "Contactame"];
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
