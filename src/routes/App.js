@@ -2,6 +2,7 @@ import { About } from "../components/About";
 import { BackgroundImage } from "../components/BackgroundImage";
 import { Certifications } from "../components/Certifications";
 import { Contact } from "../components/Contact";
+import { MoreProject } from "../components/MoreProject";
 import { MyWork } from "../components/MyWork";
 import { Navbar } from "../components/Navbar";
 import { Skills } from "../components/Skills";
@@ -16,7 +17,7 @@ function App() {
       <Certifications id="certifications"/>
       <MyWork id="mywork" />
       <Contact id="contact" />
-
+      <MoreProject/>
     </div>
   );
 }
