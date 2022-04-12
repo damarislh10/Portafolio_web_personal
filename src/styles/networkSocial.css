@@ -1,0 +1,10 @@
+.network{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    margin-bottom: 5%;
+}
+
+.iconNetwork:hover{
+    color: #5b43d6 !important;
+}
