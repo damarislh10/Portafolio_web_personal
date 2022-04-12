@@ -57,7 +57,7 @@ export const MyWork = () => {
             <div className="containerImageWork">
               <img
                 className="imageProject"
-                src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649709405/MyPortafolio/imagedaily_rlp4hv.png"
+                src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649787125/MyPortafolio/computer2_x0jeye.jpg"
                 alt="imageProject"
               />
             </div>
@@ -125,6 +125,35 @@ export const MyWork = () => {
                 target="_blank"
               >
                 Ver sitio
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col">
+          <div className="container-col-2">
+            <div className="containerImageWork">
+              <img
+                className="imageProject"
+                src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649711270/MyPortafolio/imagepets_l7om3d.png"
+                alt="imageProject"
+              />
+            </div>
+            <div className="">
+              <h2 className="titleProject">Más proyectos</h2>
+              <p className="container-des-work parrafoApp">
+                Si deseas ver mas de mis proyectos puedes hacer clic en el
+                siguiente boton
+              </p>
+              <Button
+                variant="contained"
+                className="buttonWork btnGit"
+                href="https://github.com/damarislh10?tab=repositories"
+                target="_blank"
+              >
+                Ir ahora
               </Button>
             </div>
           </div>

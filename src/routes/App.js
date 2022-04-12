@@ -17,7 +17,6 @@ function App() {
       <Certifications id="certifications"/>
       <MyWork id="mywork" />
       <Contact id="contact" />
-      <MoreProject/>
     </div>
   );
 }
