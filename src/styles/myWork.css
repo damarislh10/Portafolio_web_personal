@@ -15,7 +15,7 @@
 
 }
 .imageProject {
-  width: 600px;
+  width: 550px;
 }
 
 .container-des-work,
@@ -44,6 +44,10 @@ p {
     margin-left: 4% !important;
 }
 
+.btnSite:hover{
+  background-color: #5b43d6 !important;
+  color: #fff !important;
+}
 .parrafoApp{
     color: gray;
     font-size: 15px;

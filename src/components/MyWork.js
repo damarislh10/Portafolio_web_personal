@@ -16,7 +16,7 @@ export const MyWork = () => {
             <div className="containerImageWork">
               <img
                 className="imageProject"
-                src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649705081/MyPortafolio/imagegestwork_dx4npx.png"
+                src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649728767/MyPortafolio/WhatsApp_Image_2022-04-11_at_8.49.21_PM_uonfyp.jpg"
                 alt="imageProject"
               />
             </div>

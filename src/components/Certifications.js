@@ -1,3 +1,4 @@
+import { Button } from "@material-ui/core";
 import React from "react";
 import "../styles/certifications.css";
 
@@ -20,9 +21,17 @@ export const Certifications = () => {
                 </div>
                 <div className="container-text-certi">
                   <h3>Desarrollo frontend en ReactJs</h3>
-                  <a href="#" target="_blank" rel="noreferrer">
+                  <p className="text-resumen">
+                    Bootcamp, Desarrollo Web Front-End con énfasis en ReactJS.
+                  </p>
+                  <Button
+                    variant="outlined"
+                    className="buttonWork btnSite"
+                    href="#"
+                    target="_blank"
+                  >
                     Ver credencial
-                  </a>
+                  </Button>
                 </div>
               </div>
             </div>
@@ -40,16 +49,20 @@ export const Certifications = () => {
                 </div>
                 <div className="container-text-certi">
                   <h3>
-                    Habilidades de programación de misión TIC 2022 con
-                    profundización en desarrollo de aplicaciones web.
+                    Misión TIC 2022 con profundización en desarrollo de
+                    aplicaciones web.
                   </h3>
-                  <a
+                  <p className="text-resumen">
+                    Habilidades de programación con python, java, vue Js y javascript.
+                  </p>
+                  <Button
+                    variant="outlined"
+                    className="buttonWork btnSite"
                     href="https://drive.google.com/file/d/1SqlkO9KxWnKDCKoKo37jIm5YImN3E06_/view"
                     target="_blank"
-                    rel="noreferrer"
                   >
                     Ver credencial
-                  </a>
+                  </Button>
                 </div>
               </div>
             </div>
@@ -57,7 +70,7 @@ export const Certifications = () => {
         </div>
 
         <div className="row">
-          <div className="col">
+          <div className="col col-freecode">
             <div className="container-col">
               <div className="geek">
                 <div className="containerImage">
@@ -69,15 +82,21 @@ export const Certifications = () => {
                 </div>
                 <div className="container-text-certi">
                   <h3>Responsive Web Design</h3>
-                  <a href="https://www.freecodecamp.org/certification/DamarisHernandez/responsive-web-design" target="_blank" rel="noreferrer">
+
+                  <Button
+                    variant="outlined"
+                    className="buttonWork btnSite"
+                    href="https://www.freecodecamp.org/certification/DamarisHernandez/responsive-web-design"
+                    target="_blank"
+                  >
                     Ver credencial
-                  </a>
+                  </Button>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="col">
+          <div className="col col-freecode">
             <div className="container-col">
               <div className="geek">
                 <div className="containerImage">
@@ -88,16 +107,16 @@ export const Certifications = () => {
                   />
                 </div>
                 <div className="container-text-certi">
-                  <h3>
-                  JavaScript Algorithms and Data Structures
-                  </h3>
-                  <a
+                  <h3>JavaScript Algorithms and Data Structures</h3>
+
+                  <Button
+                    variant="outlined"
+                    className="buttonWork btnSite"
                     href="https://drive.google.com/file/d/1SqlkO9KxWnKDCKoKo37jIm5YImN3E06_/view"
                     target="_blank"
-                    rel="noreferrer"
                   >
                     Ver credencial
-                  </a>
+                  </Button>
                 </div>
               </div>
             </div>
