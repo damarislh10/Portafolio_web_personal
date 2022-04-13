@@ -1,7 +1,7 @@
 .containerSkills{
     width: 90%;
     margin: auto;
-    margin-top: -5%;
+    margin-top: -2%;
 }
 
 .container-text{
@@ -20,10 +20,13 @@
 .imageTech{
     width: 100px;
     margin: 5% 0;
+    height: 100px;
 }
 
 .title-languaje{
     color: #5b43d6;
+    /* color:#292e46; */
+    color: #7e57c2;
     font-weight: 400;
     margin-bottom: 4%;
 }

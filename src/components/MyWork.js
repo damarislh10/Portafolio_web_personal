@@ -4,7 +4,7 @@ import "../styles/myWork.css";
 
 export const MyWork = () => {
   return (
-    <div>
+    <div className="containerSkills">
       <div className="container-text contain-work">
         <h1 className="title-main">Mis proyectos recientes</h1>
         <p>Aquí hay algunos proyectos en los que he trabajado recientemente.</p>
@@ -16,7 +16,7 @@ export const MyWork = () => {
             <div className="containerImageWork">
               <img
                 className="imageProject"
-                src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649728767/MyPortafolio/WhatsApp_Image_2022-04-11_at_8.49.21_PM_uonfyp.jpg"
+                src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649816674/MyPortafolio/computerOriginal_c4sctz.jpg"
                 alt="imageProject"
               />
             </div>
@@ -57,7 +57,7 @@ export const MyWork = () => {
             <div className="containerImageWork">
               <img
                 className="imageProject"
-                src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649799528/MyPortafolio/computer2_c44wbh.jpg"
+                src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649815765/MyPortafolio/computerOriginal_-_Copy_oeu7rc.jpg"
                 alt="imageProject"
               />
             </div>

@@ -6,7 +6,7 @@ export const Certifications = () => {
   return (
     <div className="containerSkills">
       <div className="container-text">
-        <h1 className="title-main">Mis Certificaciones</h1>
+        <h1 className="title-main" >Mis Certificaciones</h1>
 
         <div className="row">
           <div className="col">
@@ -86,7 +86,7 @@ export const Certifications = () => {
                   <Button
                     variant="outlined"
                     className="buttonWork btnSite"
-                    href="https://res.cloudinary.com/df90q7vvj/image/upload/v1649801484/MyPortafolio/logoFreecomcamp_3_qnsgyf.png"
+                    href="https://www.freecodecamp.org/certification/DamarisHernandez/responsive-web-design"
                     target="_blank"
                   >
                     Ver credencial
@@ -98,7 +98,7 @@ export const Certifications = () => {
 
           <div className="col col-freecode">
             <div className="container-col">
-              <div className="geek">
+              <div className="geek code-freecode">
                 <div className="containerImage">
                   <img
                     className="imageGeek"

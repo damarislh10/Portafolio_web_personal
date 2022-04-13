@@ -9,10 +9,8 @@
 }
 
 .contain-work{
-    border-bottom: 1px solid rgb(175, 172, 172);
     border-end-end-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
-
 }
 .imageProject {
   width: 550px;
@@ -29,7 +27,7 @@ p {
 }
 
 .buttonWork {
-  padding: 12px 30px !important;
+  padding: 10px 25px !important;
   border-radius: 30px !important;
   background-color: #5b43d6 !important;
   border-color: #5b43d6 !important;
@@ -53,6 +51,7 @@ p {
     font-size: 15px;
     margin-bottom: 30px;
     line-height: 1.6;
+    text-align: justify;
 }
 
 .titleProject{
