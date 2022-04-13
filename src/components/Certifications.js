@@ -22,7 +22,8 @@ export const Certifications = () => {
                 <div className="container-text-certi">
                   <h3>Desarrollo frontend en ReactJs</h3>
                   <p className="text-resumen">
-                    Bootcamp, Desarrollo Web Front-End con énfasis en ReactJS.
+                    Bootcamp de desarrollo Web Front-End con énfasis en ReactJS.
+                    Un entrenamiento basada en proyectos y en sprints.
                   </p>
                   <Button
                     variant="outlined"
