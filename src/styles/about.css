@@ -2,6 +2,7 @@
   background: linear-gradient(to bottom, #7a19f1, #332179);
   padding: 13% 0;
   color: var(--textColor);
+  border-radius: 0px 0px 10% 10%;
 }
 .container-about {
   width: 50%;
