@@ -3,6 +3,9 @@
     margin: auto;
     margin-top: -2%;
 }
+.text-skills{
+    margin-bottom: 4%;
+}
 
 .container-text{
     background-color: #fff;
@@ -25,7 +28,6 @@
 
 .title-languaje{
     color: #5b43d6;
-    /* color:#292e46; */
     font-weight: 400;
     margin-bottom: 4%;
 }

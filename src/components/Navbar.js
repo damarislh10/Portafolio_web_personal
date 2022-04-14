@@ -9,11 +9,34 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
+import { Link, animateScroll as scroll } from "react-scroll";
 import "../styles/navBar.css";
+import { List } from "@mui/material";
 
-export const Navbar = ({id}) => {
+export const Navbar = ({ id }) => {
+  const links = [
+    {
+      id: "about",
+      text: "Perfil",
+    },
+    {
+      id: "skills",
+      text: "Habilidades",
+    },
+    {
+      id: "certifications",
+      text: "Certificaciones",
+    },
+    {
+      id: "mywork",
+      text: "Proyectos",
+    },
+    {
+      id: "contact",
+      text: "Contactame",
+    },
+  ];
 
-  const pages = ["Perfil", "Habilidades","Certificaciones", "Proyectos", "Contactame"];
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
@@ -25,7 +48,6 @@ export const Navbar = ({id}) => {
   };
   return (
     <AppBar position="static">
-
       <Container maxWidth="xl" className="container-nav">
         <Toolbar disableGutters className="contaner-li">
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -57,20 +79,30 @@ export const Navbar = ({id}) => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
-              ))}
+              <List className="classesmenu">
+                {
+                  links.map(({id,text},index)=>(
+                    <Link key={index} to={id} spy={true} smooth={true} duration={500} offset={-70}>{text}</Link>
+                  ))
+                }
+              </List>
+       
             </Menu>
           </Box>
           <Box
             className="li-nav"
             sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
           >
-            {pages.map((page) => (
+                      {/* <List className="classesmenu">
+                {
+                  links.map(({id,text},index)=>(
+                    <Link key={index} to={id} spy={true} smooth={true} duration={500} offset={-70}>{text}</Link>
+                  ))
+                }
+              </List> */}
+            {links.map(({id,text},index)=>(
               <Button
-                key={page}
+                key={index}
                 onClick={handleCloseNavMenu}
                 className="buttonPages"
                 sx={{
@@ -81,7 +113,7 @@ export const Navbar = ({id}) => {
                   fontSize: "15px",
                 }}
               >
-                {page}
+                   <Link key={index} to={id} spy={true} smooth={true} duration={500} offset={-70}>{text}</Link>
               </Button>
             ))}
           </Box>
@@ -90,3 +122,5 @@ export const Navbar = ({id}) => {
     </AppBar>
   );
 };
+
+

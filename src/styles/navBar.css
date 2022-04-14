@@ -6,8 +6,10 @@
   transition: 0.25s padding-top ease-in-out, 0.25s padding-bottom ease-in-out;
 }
 
+
+
 .contaner-li {
-  width: 30%;
+  width: 50%;
   margin: auto;
 }
 .li-nav {

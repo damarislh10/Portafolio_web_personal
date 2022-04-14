@@ -2,17 +2,12 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import "../styles/about.css";
 
-export const About = () => {
-  // .hero {
-  //   position: relative;
-  //   color: #fff;
-  //   background: linear-gradient(to bottom,#ea19f1,#332179);
-  //   background-attachment: fixed;
-
+export const About = ({ id }) => {
   return (
     <div className="container">
       <div className="containerAllAbout">
         <div className="container-about">
+          <div className="classes.sectioncontent" id={id}></div>
           <h1 className="titleName">
             <Typewriter
               onInit={(typewriter) => {

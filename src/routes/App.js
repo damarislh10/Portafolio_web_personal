@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <About id="about" />
+      <About title="perfil" id="about" />
       <BackgroundImage/>
-      <Skills id="skills" />
-      <Certifications id="certifications"/>
-      <MyWork id="mywork" />
-      <Contact id="contact" />
+      <Skills title = "Habilidades" id="skills" />
+      <Certifications title = "Certificaciones" id="certifications"/>
+      <MyWork title = "Proyectos" id="mywork" />
+      <Contact title = "Contactame" id="contact" />
       <NetworkSocial/>
     </div>
   );
