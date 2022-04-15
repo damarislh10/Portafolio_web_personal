@@ -1,12 +1,10 @@
 .container-nav {
   width: 100%;
   border-bottom: #0000001c 2px solid;
-  background-color: #741ce8;
+  background-color: #741ce8 !important;
   z-index: 100;
   transition: 0.25s padding-top ease-in-out, 0.25s padding-bottom ease-in-out;
 }
-
-
 
 .contaner-li {
   width: 50%;
@@ -19,4 +17,13 @@
 
 .buttonPages:hover {
   color: #b7b1ce;
+}
+
+.link-menunav{
+  /* background-color: aqua !important; */
+  display: block;
+  padding: 0 2%;
+}
+.lista-menu{
+  background-color: #1d9e3b !important;
 }

@@ -7,7 +7,7 @@ export const MyWork = ({ id }) => {
     <div className="containerSkills">
       <div className="container-text contain-work">
         <div id={id}>
-          <h1 className="title-main">Mis proyectos recientes</h1>
+          <h1 className="title-main title-work">Mis proyectos recientes</h1>
           <p className="text-skills">
             Aquí hay algunos proyectos en los que he trabajado recientemente.
           </p>
