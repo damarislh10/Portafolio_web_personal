@@ -23,7 +23,7 @@ export const MyWork = ({ id }) => {
                   alt="imageProject"
                 />
               </div>
-              <div className="">
+              <div>
                 <h2 className="titleProject">GestWork</h2>
                 <p className="container-des-work parrafoApp">
                   Permite tener un lugar de control para gestionar cada proceso;
@@ -33,22 +33,24 @@ export const MyWork = ({ id }) => {
                   información y así todo su equipo podrá mantenerse conectado en
                   una misma red.
                 </p>
-                <Button
-                  variant="contained"
-                  className="buttonWork btnGit"
-                  href="https://github.com/academia-geek/demo-day-projects-gestwork"
-                  target="_blank"
-                >
-                  GitHub
-                </Button>
-                <Button
-                  variant="outlined"
-                  className="buttonWork btnSite"
-                  href="https://gestwork-bad1b.web.app/landing"
-                  target="_blank"
-                >
-                  Ver sitio
-                </Button>
+                <div className="container-btnWork">
+                  <Button
+                    variant="contained"
+                    className="buttonWork btnGit"
+                    href="https://github.com/academia-geek/demo-day-projects-gestwork"
+                    target="_blank"
+                  >
+                    GitHub
+                  </Button>
+                  <Button
+                    variant="outlined"
+                    className="buttonWork btnSite"
+                    href="https://gestwork-bad1b.web.app/landing"
+                    target="_blank"
+                  >
+                    Ver sitio
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
@@ -64,7 +66,7 @@ export const MyWork = ({ id }) => {
                   alt="imageProject"
                 />
               </div>
-              <div className="">
+              <div>
                 <h2 className="titleProject">Daily Bits</h2>
                 <p className="container-des-work parrafoApp">
                   App de aprendizaje de lenguajes de programación y diseño. Es
@@ -73,22 +75,24 @@ export const MyWork = ({ id }) => {
                   perfil, y si es administrador vera el tablero con todos los
                   usuarios registrados en ello y sus estadisticas.
                 </p>
-                <Button
-                  variant="contained"
-                  className="buttonWork btnGit"
-                  href="https://github.com/damarislh10/Daily-Bits"
-                  target="_blank"
-                >
-                  GitHub
-                </Button>
-                <Button
-                  variant="outlined"
-                  className="buttonWork btnSite"
-                  href="https://frontend-sprint-2-damarislh10-ten.vercel.app/"
-                  target="_blank"
-                >
-                  Ver sitio
-                </Button>
+                <div className="container-btnWork">
+                  <Button
+                    variant="contained"
+                    className="buttonWork btnGit"
+                    href="https://github.com/damarislh10/Daily-Bits"
+                    target="_blank"
+                  >
+                    GitHub
+                  </Button>
+                  <Button
+                    variant="outlined"
+                    className="buttonWork btnSite"
+                    href="https://frontend-sprint-2-damarislh10-ten.vercel.app/"
+                    target="_blank"
+                  >
+                    Ver sitio
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
@@ -113,22 +117,24 @@ export const MyWork = ({ id }) => {
                   detalle y agregar a favoritos como también ver Perfil y
                   Actualizar el usuario y una Simulación de opción de chat.
                 </p>
-                <Button
-                  variant="contained"
-                  className="buttonWork btnGit"
-                  href="https://github.com/damarislh10/AdopcionMascotas"
-                  target="_blank"
-                >
-                  GitHub
-                </Button>
-                <Button
-                  variant="outlined"
-                  className="buttonWork btnSite"
-                  href="https://frontend-sprint-1-damarislh10-seven.vercel.app/"
-                  target="_blank"
-                >
-                  Ver sitio
-                </Button>
+                <div className="container-btnWork">
+                  <Button
+                    variant="contained"
+                    className="buttonWork btnGit"
+                    href="https://github.com/damarislh10/AdopcionMascotas"
+                    target="_blank"
+                  >
+                    GitHub
+                  </Button>
+                  <Button
+                    variant="outlined"
+                    className="buttonWork btnSite"
+                    href="https://frontend-sprint-1-damarislh10-seven.vercel.app/"
+                    target="_blank"
+                  >
+                    Ver sitio
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
@@ -150,14 +156,16 @@ export const MyWork = ({ id }) => {
                   Si deseas ver mas de mis proyectos puedes hacer clic en el
                   siguiente boton
                 </p>
-                <Button
-                  variant="contained"
-                  className="buttonWork btnGit"
-                  href="https://github.com/damarislh10?tab=repositories"
-                  target="_blank"
-                >
-                  Ir ahora
-                </Button>
+                <div className="container-btnWork">
+                  <Button
+                    variant="contained"
+                    className="buttonWork btnGit"
+                    href="https://github.com/damarislh10?tab=repositories"
+                    target="_blank"
+                  >
+                    Ir ahora
+                  </Button>
+                </div>
               </div>
             </div>
           </div>

@@ -13,7 +13,7 @@ export const Skills = ({ id }) => {
               interesa seguir aprendiendo.
             </p>
           </div>
-          <div className="row">
+          <div className="row row-skills">
             <div className="col container-text-certi">
               <h4 className="stack">JavaScript</h4>
               <img
@@ -83,7 +83,6 @@ export const Skills = ({ id }) => {
               <br />
             </div>
             <div className="col container-text-certi">
-              {/* <h3 className="title-languaje">Bases de datos</h3> */}
               <h4 className="stack">MySql</h4>
               <img
                 className="imageTech"
@@ -107,7 +106,6 @@ export const Skills = ({ id }) => {
               />
             </div>
             <div className="col container-text-certi">
-              {/* <h3 className="title-languaje">Otras tecnologias</h3> */}
               <h4 className="stack">Git</h4>
 
               <img

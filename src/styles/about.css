@@ -20,3 +20,10 @@
 .titleName {
   margin-bottom: 3%;
 }
+
+
+@media only screen and (max-width: 540px) {
+  .container-description {
+    width: 90%;
+  }
+}

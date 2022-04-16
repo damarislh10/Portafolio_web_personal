@@ -9,6 +9,24 @@
   justify-content: center;
 }
 
-.error{
-  color:#ef5771;
+.container-text-contact {
+  padding: 0% 2% 5% 2% !important;
+}
+.title-contact{
+  margin-top: 0;
+}
+.error {
+  color: #ef5771;
+}
+
+@media only screen and (max-width: 540px) {
+  .container-text-contact {
+    padding: 5% 2% !important;
+  }
+  .contact-form {
+    width: 80%;
+  }
+  .btnContact {
+    width: 50%;
+  }
 }

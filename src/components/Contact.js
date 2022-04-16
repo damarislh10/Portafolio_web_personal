@@ -51,9 +51,9 @@ export const Contact = ({ id }) => {
   };
   return (
     <div>
-      <div className="container-text">
+      <div className="container-text container-text-contact">
         <div className="section" id={id}>
-          <h1 className="title-main">Contactame</h1>
+          <h1 className="title-main title-contact">Contactame</h1>
           <p className="text-skills">
              Si deseas puedes comunicarte conmigo por medio del siguiente
             formulario.
@@ -129,7 +129,7 @@ export const Contact = ({ id }) => {
                 sx={{ mt: 2}}
                 type="submit"
                 variant="contained"
-                className="buttonWork btnGit"
+                className="buttonWork btnGit btnContact"
               >
                 Enviar
               </Button>

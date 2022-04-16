@@ -7,14 +7,14 @@ export const Certifications = ({ id }) => {
     <div className="containerSkills">
       <div className="container-text">
         <div id={id}>
-          <h1 className="title-main">Mis Certificaciones</h1>
+          <h1 className="title-main title-certification">Mis Certificaciones</h1>
 
-          <div className="row">
+          <div className="row row-certifications">
             <div className="col">
               <div className="container-col">
                 <div className="geek">
                   <div className="containerImage" id="imageGeek">
-                    <img
+                    <img 
                       className="imageGeek"
                       src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649700177/MyPortafolio/Logo-AG-2021_wivnqq_mfzbgg.png"
                       alt="logo"
@@ -41,7 +41,7 @@ export const Certifications = ({ id }) => {
             </div>
 
             <div className="col">
-              <div className="container-col">
+              <div className="container-col ">
                 <div className="geek">
                   <div className="containerImage">
                     <img
@@ -73,9 +73,9 @@ export const Certifications = ({ id }) => {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row row-certifications row-frecode">
             <div className="col col-freecode">
-              <div className="container-col">
+              <div className="container-col container-camp">
                 <div className="geek">
                   <div className="containerImage">
                     <img
@@ -101,7 +101,7 @@ export const Certifications = ({ id }) => {
             </div>
 
             <div className="col col-freecode">
-              <div className="container-col">
+              <div className="container-col container-camp-2">
                 <div className="geek code-freecode">
                   <div className="containerImage">
                     <img
