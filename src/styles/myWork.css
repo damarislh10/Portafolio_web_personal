@@ -70,6 +70,7 @@ p {
   }
   .imageProject {
     width: 350px;
+    margin-top: 2%;
   }
   .titleProject {
     text-align: center;
@@ -77,5 +78,6 @@ p {
   .container-btnWork {
     display: flex;
     justify-content: center;
+    margin-bottom: 2%;
   }
 }

@@ -19,11 +19,36 @@
   color: #b7b1ce;
 }
 
-.link-menunav{
-  /* background-color: aqua !important; */
-  display: block;
+.link-menunav {
+  display: flex;
+  width: 100%;
   padding: 0 2%;
 }
-.lista-menu{
+.text-link {
+  margin-right: 15%;
+}
+
+.lista-menu {
   background-color: #1d9e3b !important;
+}
+
+.cv-link {
+  text-decoration: none;
+  color: #fff;
+}
+.cv-link:hover {
+  color: #b7b1ce;
+}
+
+.link-cv {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 16px;
+}
+
+.icon-menu {
+  width: 10px !important;
+}
+.icon-menu:hover {
+  color: #5b43d6 !important;
 }

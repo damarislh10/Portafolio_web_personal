@@ -24,6 +24,7 @@ import TipsAndUpdatesIcon from "@mui/icons-material/TipsAndUpdates";
 import WorkspacePremiumIcon from "@mui/icons-material/WorkspacePremium";
 import BuildIcon from "@mui/icons-material/Build";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
+import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 
 const drawerWidth = 240;
 
@@ -161,21 +162,41 @@ export const Navbar = ({ id }) => {
                 <List className="classesmenu">
                   {links.map(({ id, text, icon }, index) => (
                     <ListItem button key={index}>
-                      <ListItemIcon>{icon}</ListItemIcon>
-                      <Link
-                        className="link-menunav"
-                        key={index}
-                        to={id}
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                        offset={-70}
-                      >
-                        <ListItemText />
-                        {text}
-                      </Link>
+                      <ListItemIcon className="icon-menu">
+                        <Link
+                          className="link-menunav"
+                          key={index}
+                          to={id}
+                          spy={true}
+                          smooth={true}
+                          duration={500}
+                          offset={-70}
+                        >
+                          <ListItemText />
+                          <span className="text-link">{icon}</span>
+
+                          {text}
+                        </Link>
+                      </ListItemIcon>
                     </ListItem>
                   ))}
+                  <ListItem>
+                    <ListItemIcon className="icon-menu">
+                      <span className="text-link">
+                        <InsertDriveFileIcon />
+                      </span>
+
+                      <a
+                        href="https://drive.google.com/file/d/1Dtw_MW4KHd5dlp9OyOgtn2jm2mtxQ7Yb/view"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="link-menunav link-cv"
+                      >
+                        <ListItemText />
+                        CV
+                      </a>
+                    </ListItemIcon>
+                  </ListItem>
                 </List>
               </Drawer>
             </Box>
@@ -210,6 +231,25 @@ export const Navbar = ({ id }) => {
                 </Link>
               </Button>
             ))}
+            <Button
+              className="buttonPages"
+              sx={{
+                my: 2,
+                color: "white",
+                display: "block",
+                fontWeight: "600",
+                fontSize: "15px",
+              }}
+            >
+              <a
+                className="cv-link"
+                href="https://drive.google.com/file/d/1Dtw_MW4KHd5dlp9OyOgtn2jm2mtxQ7Yb/view"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CV
+              </a>
+            </Button>
           </Box>
         </Toolbar>
       </Container>
