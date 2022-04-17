@@ -193,7 +193,7 @@ export const Navbar = ({ id }) => {
                         className="link-menunav link-cv"
                       >
                         <ListItemText />
-                        Mi CV
+                        CV
                       </a>
                     </ListItemIcon>
                   </ListItem>

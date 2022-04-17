@@ -35,6 +35,10 @@ p {
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.buttonWork:hover{
+  background-color: #452bc7 !important;
+  transition: all ease-in 1s;
+}
 .btnSite {
   background-color: #fff !important;
   color: #5b43d6 !important;
