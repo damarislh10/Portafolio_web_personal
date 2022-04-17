@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
 import React from "react";
 import "../styles/myWork.css";
+import WebIcon from '@mui/icons-material/Web';
 
 export const MyWork = ({ id }) => {
   return (
@@ -139,24 +140,23 @@ export const MyWork = ({ id }) => {
             </div>
           </div>
         </div>
-
         <div className="row">
           <div className="col">
             <div className="container-col-2">
               <div className="containerImageWork">
                 <img
                   className="imageProject"
-                  src="https://res.cloudinary.com/df90q7vvj/image/upload/v1649711270/MyPortafolio/imagepets_l7om3d.png"
+                  src="https://res.cloudinary.com/df90q7vvj/image/upload/v1650154117/MyPortafolio/computerfotopage_-_Copy_vqymdk.jpg"
                   alt="imageProject"
                 />
               </div>
               <div className="">
                 <h2 className="titleProject">Más proyectos</h2>
                 <p className="container-des-work parrafoApp">
-                  Si deseas ver mas de mis proyectos puedes hacer clic en el
-                  siguiente boton
+                  Si deseas ver más de mis proyectos en los que he trabajado < WebIcon/> puedes hacer clic en el
+                  siguiente boton.
                 </p>
-                <div className="container-btnWork">
+                <div className="container-btnWork"> 
                   <Button
                     variant="contained"
                     className="buttonWork btnGit"

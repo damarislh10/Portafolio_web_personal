@@ -193,7 +193,7 @@ export const Navbar = ({ id }) => {
                         className="link-menunav link-cv"
                       >
                         <ListItemText />
-                        CV
+                        Mi CV
                       </a>
                     </ListItemIcon>
                   </ListItem>
@@ -247,7 +247,7 @@ export const Navbar = ({ id }) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                CV
+                Mi CV
               </a>
             </Button>
           </Box>
