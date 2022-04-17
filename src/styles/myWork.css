@@ -35,7 +35,7 @@ p {
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.buttonWork:hover{
+.buttonWork:hover {
   background-color: #452bc7 !important;
   transition: all ease-in 1s;
 }
@@ -83,5 +83,32 @@ p {
     display: flex;
     justify-content: center;
     margin-bottom: 2%;
+  }
+  .containerImageWork{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+  .container-col-2 {
+    display: block;
+    padding: 5% 5%;
+  }
+  .imageProject {
+    width: 600px;
+    margin-top: 2%;
+  }
+  .titleProject {
+    text-align: center;
+  }
+  .container-btnWork {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+  .containerImageWork{
+    display: flex;
+    justify-content: center;
   }
 }

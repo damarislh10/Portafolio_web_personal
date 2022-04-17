@@ -34,7 +34,7 @@
 .containerImage {
   border-radius: 500px;
 }
-.geek{
+.geek {
   transition: all ease-out 0.2s;
 }
 .geek:hover {
@@ -43,7 +43,7 @@
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
   transform: scale(1.05);
   padding-bottom: 5%;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .col-freecode {
@@ -91,5 +91,33 @@
   }
   .container-camp-2 {
     margin-bottom: 42%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+  .row-certifications {
+    flex-wrap: wrap;
+    display: block !important;
+  }
+
+  .col-certification {
+    margin-top: 10%;
+  }
+  .col-freecode {
+    margin-top: 0%;
+  }
+  .container-col {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 25%;
+  }
+  .row-frecode {
+    display: none;
+  }
+  .container-camp {
+    margin-bottom: 17%;
+  }
+  .container-camp-2 {
+    margin-bottom: 22%;
   }
 }
