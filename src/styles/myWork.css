@@ -76,6 +76,7 @@ p {
     width: 350px;
     margin-top: 2%;
   }
+
   .titleProject {
     text-align: center;
   }
@@ -84,7 +85,7 @@ p {
     justify-content: center;
     margin-bottom: 2%;
   }
-  .containerImageWork{
+  .containerImageWork {
     display: flex;
     justify-content: center;
   }
@@ -99,6 +100,7 @@ p {
     width: 600px;
     margin-top: 2%;
   }
+
   .titleProject {
     text-align: center;
   }
@@ -107,13 +109,10 @@ p {
     justify-content: center;
     margin-bottom: 2%;
   }
-  .containerImageWork{
+  .containerImageWork {
     display: flex;
     justify-content: center;
   }
-}
-.imagemore{
-  width: 600px;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 280px) {
