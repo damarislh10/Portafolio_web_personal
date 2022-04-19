@@ -112,6 +112,9 @@ p {
     justify-content: center;
   }
 }
+.imagemore{
+  width: 600px;
+}
 
 @media only screen and (min-width: 280px) and (max-width: 280px) {
   .imageProject {

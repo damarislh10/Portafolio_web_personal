@@ -145,8 +145,8 @@ export const MyWork = ({ id }) => {
             <div className="container-col-2">
               <div className="containerImageWork">
                 <img
-                  className="imageProject"
-                  src="https://res.cloudinary.com/df90q7vvj/image/upload/v1650154117/MyPortafolio/computerfotopage_-_Copy_vqymdk.jpg"
+                  className="imageProject imagemore"
+                  src="https://res.cloudinary.com/df90q7vvj/image/upload/v1650153754/MyPortafolio/computerfotopage_-_Copy_f1va0e.jpg"
                   alt="imageProject"
                 />
               </div>
