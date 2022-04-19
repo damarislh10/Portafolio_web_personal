@@ -113,14 +113,14 @@ export const Certifications = ({ id }) => {
                   <div className="container-text-certi">
                     <h3>JavaScript Algorithms and Data Structures</h3>
 
-                    <Button
+                    {/* <Button
                       variant="outlined"
                       className="buttonWork btnSite"
                       href="https://drive.google.com/file/d/1SqlkO9KxWnKDCKoKo37jIm5YImN3E06_/view"
                       target="_blank"
                     >
                       Ver credencial
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </div>
