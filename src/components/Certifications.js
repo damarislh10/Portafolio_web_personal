@@ -27,14 +27,14 @@ export const Certifications = ({ id }) => {
                       ReactJS. Un entrenamiento basada en proyectos y en
                       sprints.
                     </p>
-                    {/* <Button
+                     <Button
                       variant="outlined"
                       className="buttonWork btnSite"
-                      href="#"
+                      href="https://drive.google.com/file/d/1xXiPgfhTco-5NycpXMG4HbXuHwm3ODLK/view"
                       target="_blank"
                     >
                       Ver credencial
-                    </Button> */}
+                    </Button> 
                   </div>
                 </div>
               </div>
